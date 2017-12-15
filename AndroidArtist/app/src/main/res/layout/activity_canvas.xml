@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.joshpayne1.androidartist.CanvasActivity">
+
+    <include layout="@layout/content_canvas" />
+
+    <com.joshpayne1.androidartist.CustomView
+        android:id="@+id/canvas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="clicked"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="55dp"
+        android:layout_height="59dp"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="clear"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_gravity="top|right"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="saveImage"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:layout_editor_absoluteY="492dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab4"
+        android:layout_width="55dp"
+        android:layout_height="52dp"
+        android:layout_gravity="top|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:onClick="home"
+        app:srcCompat="@android:drawable/ic_media_rew"
+        tools:layout_editor_absoluteY="492dp" />
+
+</android.support.design.widget.CoordinatorLayout>
+
+

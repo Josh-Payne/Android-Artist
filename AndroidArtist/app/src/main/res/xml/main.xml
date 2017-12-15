@@ -1,0 +1,19 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <PreferenceCategory>
+
+    <com.jaredrummler.android.colorpicker.ColorPreference
+        android:defaultValue="0xFFEC407A"
+        android:key="custom_only_color"
+        android:summary="A picker that doesn't show the presets"
+        android:title="Custom color"
+        app:cpv_allowPresets="false"
+        app:cpv_dialogTitle="@string/app_name"
+        app:cpv_dialogType="custom"/>
+
+    ...
+
+  </PreferenceCategory>
+
+</PreferenceScreen>

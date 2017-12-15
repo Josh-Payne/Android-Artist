@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Android Artist</string>
+    <string name="title_activity_canvas">CanvasActivity</string>
+    <string name="title_activity_image_list">ImageList</string>
+    <string-array name="actions">
+        <item>goto</item>
+        <item>play</item>
+        <item>hide</item>
+        <item>show</item>
+        <item>shrink</item>
+        <item>grow</item>
+    </string-array>
 </resources>
