@@ -11,6 +11,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.InputType;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.GridView;
 import android.widget.Toast;
 
 import com.jaredrummler.android.colorpicker.ColorPickerDialog;
@@ -35,6 +36,7 @@ public class CanvasActivity extends AppCompatActivity implements ColorPickerDial
         setContentView(R.layout.activity_canvas);
         cv = (CustomView) findViewById(R.id.canvas);
         ed = EditorGameState.getInstance();
+
     }
 
     public void clicked(View view) {

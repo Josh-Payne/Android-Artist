@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        EditorGameState editorGameState = EditorGameState.getInstance();
+        editorGameState.setContext(this.getApplicationContext());
     }
 
     public void playActivity(View view){
