@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,6 +20,7 @@
             android:name=".CanvasActivity"
             android:label="@string/title_activity_canvas"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".GalleryActivity"></activity>
     </application>
 
 </manifest>
